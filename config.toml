@@ -1,0 +1,46 @@
+baseurl = "https://gnshjoo.github.io"
+languageCode = "ko-kr"
+title = "개발새발"
+description = "a Blog by gnshjoo"
+config = "config.toml"
+tags = ["blog", "sidebar", "SEO"]
+theme = "onepress"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = " "
+# Disable comments by leaving disqusShortname empty
+disqusShortname = "your disqus shortname"
+copyright = ""
+canonifyURLS = true
+paginate = 12
+
+[params]
+	author = "gnshjoo"
+        bio = "go developer."
+	logo = "/images/logo.png"
+	avatar = "/images/onepress-author.png"
+	opengraphImage = "/images/onepress-logo.jpg"
+	enableRSS = true
+
+	customCSS = false
+        readMore = "Read Up"
+    
+    # Social
+	    twitter  = ""
+	github   = "https://github.com/gnshjoo"
+	    facebook  = ""
+        linkedin  = ""
+
+    
+    # Widget
+    widgets = true
+    
+    # Author box and Share button
+    authorCard = false 
+    shareButton = true
+    
+    # Code highlighting with highlight.js
+    highlightJS = true
+
+# Taxonomies
+[taxonomies]
+    tag = "tags"
