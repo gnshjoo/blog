@@ -1,7 +1,12 @@
 ---
 title: "LexicalScope"
 date: 2023-01-08T14:45:43+09:00
+categories:
+  - web
+  - javascrpit
 draft: false
+images:
+ - /images/blog/logo.png
 ---
 
 

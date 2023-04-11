@@ -1,31 +1,29 @@
 baseURL = 'https://blog.shjoo.io'
 languageCode = 'Ko-kr'
-title = 'David Dev Blog'
-theme = "PaperMod"
-paginate = 5
+title = 'Shjoo Blog'
+theme = "bloggeri"
+paginate = 10
 min_version = "0.83.0"
-description = "안녕하세요 "
+description = "안녕하세요"
 
 [params]
-defaultTheme = "lgiht"
-name = "shjoo"
-license = "MIT"
-licenselink = "https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE"
-comments = true
+  defaultTheme = "lgiht"
+  name = "shjoo"
+  license = "MIT"
+  comments = true
+  author = "David Joo"
+  authorImage = "https://avatars.githubusercontent.com/u/23391657?s=400&u=8413451c5d94079f05b9b4e6420f496b474e3ac3&v=4"
+  utteranc = "gnshjoo/blog-comments"
 
-  [params.homeInfoParams]
-  Title = "Hi there 👋"
-  Content = "Welcome to my blog"
-
-  [[params.socialIcons]]
-  name = "github"
+[[menu.social]]
+  name = "GitHub"
   url = "https://github.com/gnshjoo"
-
+  pre = "<i class='fab fa-github'></i>"
 
 
 [minify]
-disableXML = true
-minifyOutput = true
+  disableXML = true
+  minifyOutput = true
 
 
 [author]
