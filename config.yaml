@@ -18,8 +18,8 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Shjoo's Blog
   description: "Shjoo's Blog"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  keywords: [Blog, Portfolio, PaperMod, shjoo]
+  author: shjoo
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -32,22 +32,15 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
   ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
-  utterances:
-    enable: true
-    repo: "gnshjoo/gnshjoo.github.io"
-    issueTerm: "pathname"
-    label: "comments"
-    theme: "preferred-color-scheme"
-    crossorigin: "anonymous"
+  showtoc: true
+  tocopen: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -120,6 +113,15 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+
+      # for comments
+  utteranc:
+    enable: true
+    repo: "gnshjoo/gnshjoo.github.io"
+    issueTerm: "pathname"
+    label: "comments"
+    theme: "preferred-color-scheme"
+    crossorigin: "anonymous"
 menu:
   main:
     # - identifier: categories
