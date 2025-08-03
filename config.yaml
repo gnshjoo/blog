@@ -43,7 +43,7 @@ params:
   tocopen: false
   utterances:
     enable: true
-    repo: "gnshjoo/blog-comments"
+    repo: "gnshjoo/gnshjoo.github.io"
     issueTerm: "pathname"
     label: "comments"
     theme: "preferred-color-scheme"
