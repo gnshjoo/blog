@@ -1,0 +1,37 @@
+baseURL = 'https://gnshjoo.github.io'
+languageCode = 'Ko-kr'
+title = 'Shjoo Blog'
+theme = "PaperMod"
+
+description = "안녕하세요"
+
+[pagination]
+  pagerSize = 5
+
+
+[params]
+  defaultTheme = "lgiht"
+  name = "shjoo"
+  license = "MIT"
+  comments = true
+  author = "David Joo"
+  authorImage = "https://avatars.githubusercontent.com/u/23391657?s=400&u=8413451c5d94079f05b9b4e6420f496b474e3ac3&v=4"
+  utteranc = "gnshjoo/blog-comments"
+
+[[menu.social]]
+  name = "GitHub"
+  url = "https://github.com/gnshjoo"
+  pre = "<i class='fab fa-github'></i>"
+
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+
+[author]
+  name = "shjoo"
+  homepage = "https://github.com/gnshjoo"
+
+[markup.highlight]
+  noClasses = false
